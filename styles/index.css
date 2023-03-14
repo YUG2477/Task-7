@@ -1,0 +1,470 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Italic.woff2') format('woff2'),
+        url('DMSerifDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Italic.woff2') format('woff2'),
+        url('DMSerifDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Italic.woff2') format('woff2'),
+        url('Jost-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-BlackItalic.woff2') format('woff2'),
+        url('Jost-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ExtraBold.woff2') format('woff2'),
+        url('Jost-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Black.woff2') format('woff2'),
+        url('Jost-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-BoldItalic.woff2') format('woff2'),
+        url('Jost-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ExtraBoldItalic.woff2') format('woff2'),
+        url('Jost-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Bold.woff2') format('woff2'),
+        url('Jost-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ExtraLight.woff2') format('woff2'),
+        url('Jost-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ExtraLightItalic.woff2') format('woff2'),
+        url('Jost-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ThinItalic.woff2') format('woff2'),
+        url('Jost-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Light.woff2') format('woff2'),
+        url('Jost-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-LightItalic.woff2') format('woff2'),
+        url('Jost-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Regular.woff2') format('woff2'),
+        url('Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-MediumItalic.woff2') format('woff2'),
+        url('Jost-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-SemiBold.woff2') format('woff2'),
+        url('Jost-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Medium.woff2') format('woff2'),
+        url('Jost-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Thin.woff2') format('woff2'),
+        url('Jost-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-SemiBoldItalic.woff2') format('woff2'),
+        url('Jost-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Regular.woff2') format('woff2'),
+        url('Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Italic.woff2') format('woff2'),
+        url('Jost-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Jost';
+    font-style: normal;
+    color: black;
+}
+
+header {
+    width: 1920px;
+    padding: 43px;
+}
+
+.head {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    /* margin: 0 auto; */
+    width: 631px;
+}
+
+.menu-1 {
+    width: 572px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-1 ul {
+    display: flex;
+    justify-content: space-between;
+    width: 572px;
+}
+
+.menu-1 ul li {
+    list-style-type: none;
+}
+
+.menu-1 ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #292F36;
+}
+
+h1 {
+
+    font-family: 'DM Serif Display';
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    font-size: 85px;
+
+    line-height: 125%;
+}
+
+.section-2 {
+    background: url(/assessts/images/main-bg.jpg);
+    width: 1906px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1010px;
+    border-radius: 0px 0px 0px 291px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #4D5053;
+}
+
+.sec-2 {
+    width: 567px;
+    transform: translateX(337px);
+    padding-top: 341px;
+}
+
+.started-btn {
+    cursor: pointer;
+    width: 154.14px;
+    background: #292F36;
+    color: white;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+}
+.started-btn-2 {
+    cursor: pointer;
+
+    width: 206.14px;
+    background: #292F36;
+    color: white;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+}
+
+.src-btn {
+    width: 152px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.work {
+    width: 1158px;
+    margin: 200px auto;
+    display: flex;
+}
+
+.work-1 {
+    width: 358px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+}
+
+.sec-4{
+    width: 1218px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.sec-4-p1{
+    width: 472px;
+    margin-top: 50px;
+}
+
+.sec-4 h1 {
+    font-size: 51px;
+}
+
+.call {
+    width: 277px;
+}
+
+.call-detail{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 36px; 
+}
+
+.call-detail p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+}
+
+.sec-5 {
+    width: 1199px;
+    background: #F4F0EC;
+    border-radius: 70px;
+    margin: 0 auto;
+}
+
+.sec-5-p1 {
+    width: 547px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 88px;
+}
+
+h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+}
+
+.cards {width: 1150px;display: flex;justify-content: space-between;}
+
+.sec-5-p2 {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 86px;
+}
+
+.cards-1 {margin-top: 53px;background: #FFFFFF;width: 370px;border-radius: 29px;}
+
+.person {
+    display: flex;
+    margin: 39px auto;
+    width: 295px;
+    gap: 21px;
+    /* justify-content: space-between; */
+}
+.person-p2 {
+    margin-bottom: 83px;
+    width: 296px;
+    margin: 16px auto;
+    padding-bottom: 83px;
+}
+.section-4{
+    margin-bottom: 220px;
+}
+
+.sec-6{
+    
+width: 1090.39px;
+    
+margin: 150px auto;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1090px;
+}  
+.src-btn-2 {
+    width: 187px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
